@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Koin Multi-Module Sample"
+include ':app'
+include ':core'
+include ':feature-a:api'
+include ':feature-a:impl'
+include ':feature-b:api'
+include ':feature-b:impl'
