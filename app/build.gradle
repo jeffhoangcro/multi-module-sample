@@ -32,6 +32,11 @@ android {
 }
 
 dependencies {
+    implementation project(':core')
+    implementation project(':feature-a:api')
+    implementation project(':feature-a:impl')
+    implementation project(':feature-b:api')
+    implementation project(':feature-b:impl')
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'

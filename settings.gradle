@@ -16,6 +16,6 @@ rootProject.name = "Koin Multi-Module Sample"
 include ':app'
 include ':core'
 include ':feature-a:api'
-include ':feature-a:impl'
 include ':feature-b:api'
+include ':feature-a:impl'
 include ':feature-b:impl'
